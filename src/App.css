@@ -1,0 +1,158 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+span:hover {
+    color: #3cb8ff;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+i {
+    text-align: center;
+    width: 30px;
+}
+
+aside {
+    background: #222;
+    box-shadow: 4px 0 5px 0 #222;
+    font-size: 14px;
+    overflow-y: scroll;
+    letter-spacing: 0.02rem;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 275px;
+    z-index: 100;
+}
+
+aside h3 {
+    color: #6b8ce1;
+}
+
+aside span {
+    color: #fff;
+    position: relative;
+}
+
+.list-header {
+    background: #444;
+    position: relative;
+}
+
+.list-header h2 {
+    color: #fff;
+    display: inline-block;
+    padding: 20px 25px;
+}
+
+.list-header .expander {
+    border-radius: 2px;
+    padding: 5px 0;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+}
+
+.expander:hover {
+    background: #e0f3ff;
+}
+
+.list-main {
+    padding: 5px 15px;
+}
+
+.list-item a {
+    display: block;
+}
+
+.sidenav-card {
+    padding: 10px 9px;
+}
+
+.sidenav-card .card-main span {
+    border-radius: 3px;
+    display: block;
+    margin: 8px 0;
+    padding: 10px 13px;
+}
+
+.card-main span:hover {
+    background: #e0f3ff42;
+}
+
+.card-item p,
+.card-item i {
+    display: inline-block;
+}
+
+.card-item span i {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.expandable-item {
+    position: relative;
+}
+
+.drop-menu {
+    position: relative;
+}
+
+.drop-menu::before {
+    background: #e0f3ff;
+    border-radius: 15px;
+    content: "";
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 17px;
+    width: 3px;
+}
+
+.drop-menu a {
+    border-radius: 2px;
+    display: block;
+    margin-top: 8px;
+    margin-left: 20px;
+    padding: 8px 10px;
+}
+
+.drop-menu a:hover {
+    background: #e0f3ff42;
+    color: #3cb8ff;
+}
+
+.link {
+    border-radius: 3px;
+    display: block;
+    margin: 8px 0;
+    padding: 10px 13px;
+}
+
+.link:hover {
+    background: #e0f3ff42;
+}
+
+/* .active {
+    color: #3cb8ff;
+} */
